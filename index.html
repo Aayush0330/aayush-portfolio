@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Chandak - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>Aayush Chandak</h1>
+            <p class="subtitle">Full Stack Developer</p>
+            <div class="social-links">
+                <a href="https://github.com/Aayush0330" aria-label="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aayush-chandak-614167239/" aria-label="LinkedIn">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                <a href="mailto:aayushchandak@gmail.com" aria-label="Email">
+                    <i data-lucide="mail"></i>
+                </a>
+            </div>
+            <a href="#about" class="scroll-down">
+                <i data-lucide="chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="aayush-profile.jpeg" alt="Profile" class="profile-img">
+                <p>
+                    I'm a creative and detail-oriented full-stack developer with a passion for building innovative web solutions. 
+                    My expertise lies in creating Chrome extensions and web applications that enhance user productivity and experience. 
+                    I have a strong foundation in JavaScript and modern web technologies, with a particular focus on browser extension 
+                    development and interactive web applications. When I'm not coding, I enjoy solving complex problems and turning 
+                    unique ideas into reality through code.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="3.png" alt="Sticky Notes">
+                    <div class="project-content">
+                        <h3>Sticky Notes Chrome Extension</h3>
+                        <p>A handy Chrome extension for creating and managing sticky notes directly in your browser. Perfect for quick reminders and notes while browsing.</p>
+                        <div class="tech-stack">
+                            <span>JavaScript</span>
+                            <span>Chrome API</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <a href="https://github.com/Aayush0330" class="project-link">
+                            View Project <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="1.png" alt="Responsive Tester">
+                    <div class="project-content">
+                        <h3>Responsive Tester Extension</h3>
+                        <p>Chrome extension for testing website responsiveness across multiple device dimensions. Essential tool for web developers and designers.</p>
+                        <div class="tech-stack">
+                            <span>JavaScript</span>
+                            <span>Chrome API</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <a href="https://github.com/Aayush0330" class="project-link">
+                            View Project <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="2.png" alt="Detective Game">
+                    <div class="project-content">
+                        <h3>Detective Mystery Game</h3>
+                        <p>An engaging detective game where players solve mysteries through clever puzzles and storytelling. Features interactive gameplay and challenging scenarios.</p>
+                        <div class="tech-stack">
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Game Development</span>
+                        </div>
+                        <a href="https://github.com/Aayush0330" class="project-link">
+                            View Project <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-badge">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-badge">
+                    <span>Chrome Extension Development</span>
+                </div>
+                <div class="skill-badge">
+                    <span>HTML5/CSS3</span>
+                </div>
+                <div class="skill-badge">
+                    <span>React.js</span>
+                </div>
+                <div class="skill-badge">
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-badge">
+                    <span>Git/GitHub</span>
+                </div>
+                <div class="skill-badge">
+                    <span>Responsive Design</span>
+                </div>
+                <div class="skill-badge">
+                    <span>Web APIs</span>
+                </div>
+                <div class="skill-badge">
+                    <span>TypeScript</span>
+                </div>
+                <div class="skill-badge">
+                    <span>UI/UX Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="current-year"></span> Aayush Chandak. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
